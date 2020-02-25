@@ -1,0 +1,161 @@
+body{
+    background-color: black;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: 'Karla' ;    
+}
+.navbar .navbar-brand {
+    padding-left: 30px;
+}
+
+.navbar .navbar-brand {
+    font-size: 50px;
+    font-family: 'Spectral';
+    color: #64ffda;
+    left: -50px;
+    top: -50px;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top-color: red;
+}
+
+.navbar .navbar-nav .nav-item{
+    padding: 25px;
+}
+.navbar .navbar-nav .nav-item a {
+    color: white;
+    letter-spacing: 1px;
+}
+.main   {
+    margin: 100px;
+}
+
+.header .container-fluid .row{
+    display: flex;
+}
+
+.header .container-fluid .row .pic-box {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.header .container-fluid .row .pic-box .pic {
+    width: 320px;
+    height: 320px;
+    padding: 25px;
+    border-radius: 50%;
+    background-image: url(assets/me.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 10px solid rgba(0,0,0,0.5);
+}
+
+.header .container .row .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;  
+}
+
+.header .container-fluid .row .text h5 {
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+
+.header .container-fluid .row .text h1  {
+    letter-spacing: 2px;
+    font-family: 'Spectral';
+    font-size: 65px;
+
+}
+
+.header .container-fluid .row .text h1 span {
+    font-weight: bold;
+    color: #64ffda;
+
+}
+
+.header .container-fluid .row .text h1 span:hover {
+    font-weight: bold;
+    color: #64ffda;
+
+}
+
+.header .container-fluid .row .text p {
+    font-size: 20px;
+}
+
+.header .container-fluid .row .text .header-btn{
+    /* display: flex;
+    justify-content: center; */
+    margin: 55px;
+
+}
+
+.header .container-fluid .row .text .header-btn a{
+    border-radius: 80px;
+    color: #64ffda;
+    border: 2px solid #64ffda ;
+    margin: 25px;
+}
+
+.about-area .row .info h2{
+    font-family: 'Spectral';
+    font-weight: bolder;
+    padding-bottom: 35px;
+    color: #64ffda;
+}
+
+.about-area .row .info .about-para p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.about-area .row .info .skills p{
+    font-size: 20px;
+    line-height: 25px;}
+
+ul {
+    columns: 2;
+    list-style: circle;
+    color: #64ffda;
+  }
+  
+footer {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+    
+  
+}
+
+.copyright {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-links a {
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 0px 10px;
+    color: #64ffda;
+}
+
+.footer-links a:hover {
+    opacity: 1;
+}
+
