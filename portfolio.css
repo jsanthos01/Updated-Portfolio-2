@@ -25,8 +25,15 @@ body{
 .navbar .navbar-nav .nav-item{
     padding: 25px;
 }
+
 .navbar .navbar-nav .nav-item a {
     color: white;
+    letter-spacing: 1px;
+}
+
+
+.navbar .navbar-nav .nav-item a:hover {
+    color: #64ffda;
     letter-spacing: 1px;
 }
  
@@ -74,6 +81,8 @@ footer {
     font-family: 'Spectral';
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
 .projects .featuredWork .projectInfo1{
@@ -201,4 +210,15 @@ footer {
 
 .opInfo .row .opCards .opBody img {
     border-radius: 10px;
+}
+
+.opInfo .row .opCards .opBody a{
+    color: #64ffda;
+    opacity: 0.5;
+
+}
+.opInfo .row .opCards .opBody a:hover{
+    color: #64ffda;
+    opacity: 1;
+
 }
