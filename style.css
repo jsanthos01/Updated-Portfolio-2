@@ -2,7 +2,7 @@ body{
     background-color: black;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Karla' ; 
+    font-family: 'Bellota' ; 
     color: rgb(243, 241, 241) ;   
 }
 .navbar .navbar-brand {
@@ -27,11 +27,15 @@ body{
 .navbar .navbar-nav .nav-item a {
     color: white;
     letter-spacing: 1px;
+    transition: all ease-in .7s;
 }
 
 .navbar .navbar-nav .nav-item a:hover {
-    color: #64ffda;
-    letter-spacing: 1px;
+    color: black;
+    border-radius: 80px;
+    background-image: linear-gradient(45deg, #50A7C2, #64ffda);
+    border: none;
+    filter: drop-shadow(1px 1px 5px rgb(48, 98, 114));
 }
 
 .main   {
@@ -97,7 +101,7 @@ body{
 
 .header .container-fluid .row .text .header-btn{
     margin: 25px;
-
+    
 }
 
 .header .container-fluid .row .text .header-btn a{
@@ -118,8 +122,14 @@ body{
 
 .header .container-fluid .row .text .header-btn a:active {
     filter: none;  
-  }
+}
 
+.arrow-down {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 45px;
+}
 .about-area .row .info {
     display: flex;
     /* align-items: center; */
@@ -134,6 +144,23 @@ body{
     padding-bottom: 35px;
     color: #64ffda;
    
+}
+
+.scroll-down-link {
+    color: red;
+    cursor: pointer;
+    animation: MoveUpDown 2s ease-in-out infinite;
+    position: absolute;
+    transition: all 0.2s;
+}
+  
+@keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+    }
+    50% {
+        bottom: 20px;
+    }
 }
 
 .about-area .row .info .about-para p {
@@ -172,8 +199,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
     padding: 30px 0px;
-    
-  
 }
 
 .hide {

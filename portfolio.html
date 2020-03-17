@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
-     <link href="https://fonts.googleapis.com/css?family=Karla|Spectral:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellota|Spectral:400,600&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
      <!-- Bootstrap and CSS -->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="portfolio.css">
     <title>Portfolio Page</title>
 </head>
@@ -36,17 +37,20 @@
         </div>       
     </nav>
 
+
+    
     <div class="projects">
-        <h1> Featured Work </h1>
-        <div class="container featuredWork">
+        <h1> My Work </h1>
+
+        <div  class="container featuredWork">
             
             <div class="projectInfo1">
-                <div class="row">
+                <div class="row"  data-aos="fade-up" data-aos-duration="3000">
                     <div class="col-lg-6 col-md-6 col-12 textStuff">
-                        <h2>Farmer's Friend</h2>
+                        <h2 >Farmer's Friend</h2>
                         <p>
-                            A simple application that focuses on providing an efficient and easy platform for farmers. It allows them to gain knowledge
-                            on suitable crops for their location. 
+                            A simple application that focuses on providing an efficient and easy platform for farmers. 
+                            It allows them to gain knowledge on suitable crops for their location. 
                         </p>
                         <ul>
                             <li>Jquery</li>
@@ -64,26 +68,29 @@
 
             <div class="projectInfo2">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-12">
-                        <img src="assets/farmers.PNG" alt=""class="img-fluid">
+                    <div class="col-lg-6 col-md-6 col-12" data-aos-duration="3000" data-aos="fade-right"
+                    data-aos-easing="ease-in-sine">
+                        <img src="assets/fitnessD.PNG" alt=""class="img-fluid">
                     </div>
-                    <div class="col-lg-6 col-md-6 col-12 textStuff">
-                        <h2>Project 2</h2>
+                    <div class="col-lg-6 col-md-6 col-12 textStuff" data-aos="fade-left" data-aos-duration="3000" data-aos-easing="ease-in-sine">
+                        <h2>Fitness Diaries</h2>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel cumque veniam ipsam non! Nulla aperiam eligendi deserunt placeat voluptas recusandae natus officiis ad, magnam illo similique quaerat, explicabo soluta officia?
+                            Fitness Diaries is a full-stack web application that uses MVC design pattern with 
+                            local server-side API. It is designed for people who would like to 
+                            follow a fitness regime or lose weight with a socializing aspect attached. 
                         </p>
                         <ul>
-                            <li>Jquery</li>
+                            <li>Web API (spoonacular, wger)</li>
                             <li>NodeJS</li>
-                            <li>Javascript</li>
-                            <li>HTML & CSS</li>
+                            <li>JS & jQuery</li>
+                            <li>MySQL</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <div class="projectInfo3">
-                <div class="row">
+                <div class="row" data-aos-duration="3000" data-aos="zoom-in">
                     <div class="col-lg-6 col-md-6 col-12 textStuff">
                         <h2>Project 3</h2>
                         <p>
@@ -124,7 +131,7 @@
                 <div class="opBody">
                     <img src="assets/poetryBlogB.PNG" alt="" class="img-fluid">
                     <h4 class="opTitle">Scribble Magic Blog</h4>
-                    <p>As a poetry nerd, I wanted to create a blog cite that display my mini little talent and 
+                    <p>As a poetry nerd, I wanted to create a blog site that displays my mini little talent  
                         while also giving the user a chance to get inspiration from various well known poets. 
                     </p>
                     <a href="https://jsanthos01.github.io/Scribble-Magic/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
@@ -143,6 +150,16 @@
                     <a href="https://github.com/jsanthos01/Responsive-Portfolio" target="_blank"><i class="fab fa-github"></i></a>
                 </div>
             </div>
+            <div class="col-lg-4 col-md-6 opCards">
+                <div class="opBody">
+                    <img src="assets/website2.png" alt="" class="img-fluid">
+                    <h4 class="opTitle">Employee Tracker</h4>
+                    This is a simple command-line application that manages a company's employee information.
+                    Technologies used: <span style="color: #64ffda;">MySQL, NodeJS</span>.
+                    </p>
+                    <a href="https://github.com/jsanthos01/SQL-EmployeeTracker" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
         </div>
        
     </div>
@@ -158,5 +175,9 @@
           <a href="https://www.linkedin.com/in/joanna-santhosh-63928a195/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer> 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

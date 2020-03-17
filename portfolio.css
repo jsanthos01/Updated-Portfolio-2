@@ -3,7 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     color: whitesmoke;
-    font-family: 'Karla' ;    
+    font-family: 'Bellota' ;    
 }
 
 .navbar .navbar-brand {
@@ -104,14 +104,14 @@ footer {
 .projects .featuredWork .projectInfo1 .row .textStuff p {
     background-color: rgb(41, 41, 41);
     padding: 30px;
-    font-family: 'Karla' ;    
+    font-family: 'Bellota' ;    
 
 }
 
 .projects .featuredWork .projectInfo1 .row .textStuff ul {
     list-style: circle;
     columns: 3;
-    font-family: 'Karla';   
+    font-family: 'Bellota';   
     text-align: left; 
     color: #64ffda;
 
@@ -136,14 +136,14 @@ footer {
 .projects .featuredWork .projectInfo2 .row .textStuff p {
     background-color: rgb(41, 41, 41);
     padding: 30px;
-    font-family: 'Karla' ;    
+    font-family: 'Bellota' ;    
 
 }
 
 .projects .featuredWork .projectInfo2 .row .textStuff ul {
     list-style: circle;
     columns: 3;
-    font-family: 'Karla';   
+    font-family: 'Bellota';   
     text-align: left; 
     color: #64ffda;
 
@@ -168,14 +168,14 @@ footer {
 .projects .featuredWork .projectInfo3 .row .textStuff p {
     background-color: rgb(41, 41, 41);
     padding: 30px;
-    font-family: 'Karla' ;    
+    font-family: 'Bellota' ;    
 
 }
 
 .projects .featuredWork .projectInfo3 .row .textStuff ul {
     list-style: circle;
     columns: 3;
-    font-family: 'Karla';   
+    font-family: 'Bellota';   
     text-align: left; 
     color: #64ffda;
 }
@@ -190,6 +190,10 @@ footer {
 .opInfo .row .opCards {
     margin-bottom: 50px;
 }
+.opInfo .row .opCards:hover {
+    margin-bottom: 50px;
+}
+
 .opInfo .row .opCards .opBody{
     background-color: rgb(53, 52, 52);
     border-radius: 10px;
